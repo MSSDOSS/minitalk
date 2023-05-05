@@ -3,7 +3,7 @@ OBJECTS = server.o client.o men_tools.o
 SOURCESBOO = server_bonus.c client_bonus.c
 OBJECTSBOO = server_bonus.o client_bonus.o
 
-CC = gcc
+CC = cc
 FLAGS = -Wall -Werror -Wextra -fsanitize=address
 
 all: server client minitalk.h
